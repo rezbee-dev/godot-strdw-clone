@@ -5,3 +5,4 @@ Stardew Valley clone to learn/practice Godot
 
 ## Contributors
 - rezbee
+- Ink.2102
