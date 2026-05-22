@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://q7tlsa1apun6"
-path="res://.godot/imported/Tileset Grass Water Spring.png-83c58d04032b56eb0723595a1e5d28cb.ctex"
+uid="uid://x4lgfbt5cng8"
+path="res://.godot/imported/Idle.png-261e439efbbd0bb27b8beea77424a35c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/world/Tileset Grass Water Spring.png"
-dest_files=["res://.godot/imported/Tileset Grass Water Spring.png-83c58d04032b56eb0723595a1e5d28cb.ctex"]
+source_file="res://img/characters/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-261e439efbbd0bb27b8beea77424a35c.ctex"]
 
 [params]
 

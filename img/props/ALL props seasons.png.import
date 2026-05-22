@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c50jhbj6cu36r"
-path="res://.godot/imported/Ground stones.png-b1809cc1c86f559cdcad007771d3bdad.ctex"
+uid="uid://crbmpedw1kxcu"
+path="res://.godot/imported/ALL props seasons.png-1b3dd2e27aecbc98870dfc54a7511303.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/misc/Ground stones.png"
-dest_files=["res://.godot/imported/Ground stones.png-b1809cc1c86f559cdcad007771d3bdad.ctex"]
+source_file="res://img/props/ALL props seasons.png"
+dest_files=["res://.godot/imported/ALL props seasons.png-1b3dd2e27aecbc98870dfc54a7511303.ctex"]
 
 [params]
 

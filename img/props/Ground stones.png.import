@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bysldrh2cwfqx"
-path="res://.godot/imported/Fence Wood.png-2af7fbe114838d07b264c8c8f1a9a673.ctex"
+uid="uid://c50jhbj6cu36r"
+path="res://.godot/imported/Ground stones.png-b19e42bba4ce6de785b23c3faeed9631.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/misc/Fence Wood.png"
-dest_files=["res://.godot/imported/Fence Wood.png-2af7fbe114838d07b264c8c8f1a9a673.ctex"]
+source_file="res://img/props/Ground stones.png"
+dest_files=["res://.godot/imported/Ground stones.png-b19e42bba4ce6de785b23c3faeed9631.ctex"]
 
 [params]
 

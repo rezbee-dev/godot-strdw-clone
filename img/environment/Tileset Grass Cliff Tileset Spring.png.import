@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x4lgfbt5cng8"
-path="res://.godot/imported/Idle.png-6cfa2fd521304e53c0a5924460d9d03d.ctex"
+uid="uid://dl31argj4dg17"
+path="res://.godot/imported/Tileset Grass Cliff Tileset Spring.png-c6f141fdb338b69f89d0e4e78a98290f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/sprites/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-6cfa2fd521304e53c0a5924460d9d03d.ctex"]
+source_file="res://img/environment/Tileset Grass Cliff Tileset Spring.png"
+dest_files=["res://.godot/imported/Tileset Grass Cliff Tileset Spring.png-c6f141fdb338b69f89d0e4e78a98290f.ctex"]
 
 [params]
 

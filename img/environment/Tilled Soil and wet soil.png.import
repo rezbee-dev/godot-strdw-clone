@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d06ile4rujfho"
-path="res://.godot/imported/Tileset Grass Spring.png-48377a89440e711784360ba5f85c616c.ctex"
+uid="uid://b4d6iqrk7osrj"
+path="res://.godot/imported/Tilled Soil and wet soil.png-fded69c4897a86de4813f5bade9ad0f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/world/Tileset Grass Spring.png"
-dest_files=["res://.godot/imported/Tileset Grass Spring.png-48377a89440e711784360ba5f85c616c.ctex"]
+source_file="res://img/environment/Tilled Soil and wet soil.png"
+dest_files=["res://.godot/imported/Tilled Soil and wet soil.png-fded69c4897a86de4813f5bade9ad0f2.ctex"]
 
 [params]
 

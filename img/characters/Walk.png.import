@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl31argj4dg17"
-path="res://.godot/imported/Tileset Grass Cliff Tileset Spring.png-471beb6424a64e5a5b75c17a446396f1.ctex"
+uid="uid://qpe6ljmguw86"
+path="res://.godot/imported/Walk.png-ef4e9499d42bbb01b2816549883c08c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://img/world/Tileset Grass Cliff Tileset Spring.png"
-dest_files=["res://.godot/imported/Tileset Grass Cliff Tileset Spring.png-471beb6424a64e5a5b75c17a446396f1.ctex"]
+source_file="res://img/characters/Walk.png"
+dest_files=["res://.godot/imported/Walk.png-ef4e9499d42bbb01b2816549883c08c9.ctex"]
 
 [params]
 

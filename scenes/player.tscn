@@ -1,8 +1,8 @@
-[gd_scene load_steps=36 format=3 uid="uid://b8qvva18e4b6r"]
+[gd_scene format=3 uid="uid://b8qvva18e4b6r"]
 
 [ext_resource type="Script" uid="uid://8cgrbx55fbi2" path="res://scripts/player.gd" id="1_qhqgy"]
-[ext_resource type="Texture2D" uid="uid://x4lgfbt5cng8" path="res://img/sprites/Idle.png" id="2_dqkch"]
-[ext_resource type="Texture2D" uid="uid://qpe6ljmguw86" path="res://img/sprites/Walk.png" id="3_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://x4lgfbt5cng8" path="res://img/characters/Idle.png" id="2_dqkch"]
+[ext_resource type="Texture2D" uid="uid://qpe6ljmguw86" path="res://img/characters/Walk.png" id="3_qlg0r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("2_dqkch")
@@ -251,13 +251,13 @@ animations = [{
 radius = 5.0
 height = 20.0
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" unique_id=491938495]
 script = ExtResource("1_qhqgy")
 speed = 125.0
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=740670455]
 sprite_frames = SubResource("SpriteFrames_jc3p3")
 animation = &"WALK_SIDE"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1897404272]
 shape = SubResource("CapsuleShape2D_hax0n")
