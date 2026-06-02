@@ -23,8 +23,7 @@ func get_input():
 			
 	anim = ("WALK" if velocity.length() > 0.0 else "IDLE") + "_" + face_direction
 	sprite.play(anim)
-	
-	
+		
 func _ready():
 	sprite.stop()
 	sprite.play("IDLE_FRONT")
