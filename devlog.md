@@ -6,6 +6,9 @@
 
 * Refactor "tilling" and "highlight tile on mouse over" logic
 
+  * Made code cleaner and added comments
+* Added logic to only till on correct ground type
+
 
 
 \*\*June 6 Saturday\*\*
