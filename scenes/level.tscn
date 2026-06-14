@@ -1,14 +1,18 @@
 [gd_scene format=4 uid="uid://bjhn2x4j0mwof"]
 
-[ext_resource type="Script" uid="uid://bdd8sj6gyekm6" path="res://scripts/level_manager.gd" id="1_mx8sn"]
+[ext_resource type="Script" uid="uid://bwse2n1c17six" path="res://scripts/level_manager.gd" id="1_mx8sn"]
 [ext_resource type="TileSet" uid="uid://bdnw2xt6o3cpf" path="res://tiles/spring-ground.tres" id="1_w8frs"]
 [ext_resource type="TileSet" uid="uid://4ji1lg2midyi" path="res://tiles/season-props.tres" id="2_mx8sn"]
 [ext_resource type="PackedScene" uid="uid://b8qvva18e4b6r" path="res://scenes/player.tscn" id="2_w7c3h"]
 [ext_resource type="TileSet" uid="uid://cr0fjy14hdg8r" path="res://tiles/wet-soil.tres" id="4_ppgk2"]
 [ext_resource type="TileSet" uid="uid://dw7gy7yq88uub" path="res://tiles/tilled-soil.tres" id="5_2r41h"]
+[ext_resource type="PackedScene" uid="uid://bqwpap2k5h1od" path="res://scenes/farm_manager.tscn" id="7_b121j"]
 
-[node name="Level" type="Node2D" unique_id=1924115832]
+[node name="Level" type="Node2D" unique_id=1924115832 node_paths=PackedStringArray("player", "ground_node", "highlight_node")]
 script = ExtResource("1_mx8sn")
+player = NodePath("Player")
+ground_node = NodePath("Container/Ground")
+highlight_node = NodePath("Container/Highlight")
 
 [node name="Container" type="Node2D" parent="." unique_id=1704836706]
 
@@ -17,6 +21,7 @@ tile_map_data = PackedByteArray("AAAKAAYAAAAJAAIAAAAKAAUAAAAJAAIAAAAKAAQAAAAJAAI
 tile_set = ExtResource("1_w8frs")
 
 [node name="Props" type="TileMapLayer" parent="Container" unique_id=345735116]
+tile_map_data = PackedByteArray("AAACAAAAAQAAAAAAAAAEAAIAAQAAAAAAAAA=")
 tile_set = ExtResource("2_mx8sn")
 
 [node name="Wet Soil" type="TileMapLayer" parent="Container" unique_id=275118249]
@@ -34,3 +39,8 @@ tile_set = ExtResource("1_w8frs")
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=234503786]
 zoom = Vector2(1.5, 1.5)
+
+[node name="FarmManager" parent="." unique_id=578062872 node_paths=PackedStringArray("player", "tilled_node", "ground_node") instance=ExtResource("7_b121j")]
+player = NodePath("../Player")
+tilled_node = NodePath("../Container/Tilled Soil")
+ground_node = NodePath("../Container/Ground")

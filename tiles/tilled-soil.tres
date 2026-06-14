@@ -763,4 +763,6 @@ terrain_set_0/terrain_0/name = "soil"
 terrain_set_0/terrain_0/color = Color(0.68244433, 0.11012601, 0.35979328, 1)
 terrain_set_0/terrain_1/name = "soil-dark"
 terrain_set_0/terrain_1/color = Color(0.19427222, 0.5216669, 0.24748987, 1)
+custom_data_layer_0/name = ""
+custom_data_layer_0/type = 0
 sources/0 = SubResource("TileSetAtlasSource_klq6b")

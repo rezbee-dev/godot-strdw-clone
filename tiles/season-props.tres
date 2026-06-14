@@ -1,6 +1,8 @@
 [gd_resource type="TileSet" format=3 uid="uid://4ji1lg2midyi"]
 
 [ext_resource type="Texture2D" uid="uid://crbmpedw1kxcu" path="res://img/props/ALL props seasons.png" id="1_h0yrk"]
+[ext_resource type="Texture2D" uid="uid://c50jhbj6cu36r" path="res://img/props/Ground stones.png" id="2_c58lj"]
+[ext_resource type="Texture2D" uid="uid://bysldrh2cwfqx" path="res://img/props/Fence Wood.png" id="3_uwjye"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6nk8s"]
 texture = ExtResource("1_h0yrk")
@@ -157,5 +159,77 @@ texture = ExtResource("1_h0yrk")
 8:10/0 = 0
 4:11/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_shklu"]
+texture = ExtResource("2_c58lj")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.091427, -2.0021877, 3.7432194, -2.6985989, 5.8324585, 4.9619427, -3.0468063, 4.9619427)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_71hex"]
+texture = ExtResource("3_uwjye")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+5:2/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+0:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+5:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+5:7/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+
 [resource]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_6nk8s")
+sources/1 = SubResource("TileSetAtlasSource_shklu")
+sources/2 = SubResource("TileSetAtlasSource_71hex")
