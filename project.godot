@@ -22,6 +22,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 FarmManager="*uid://c1g3s6fjvfnj"
+Globals="*uid://fm2cs63hlmp5"
 
 [display]
 

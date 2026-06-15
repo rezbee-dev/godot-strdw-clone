@@ -7,6 +7,7 @@
 [ext_resource type="TileSet" uid="uid://cr0fjy14hdg8r" path="res://tiles/wet-soil.tres" id="4_ppgk2"]
 [ext_resource type="TileSet" uid="uid://dw7gy7yq88uub" path="res://tiles/tilled-soil.tres" id="5_2r41h"]
 [ext_resource type="PackedScene" uid="uid://bqwpap2k5h1od" path="res://scenes/farm_manager.tscn" id="7_b121j"]
+[ext_resource type="PackedScene" uid="uid://3rhc7t0rajip" path="res://scenes/objects/rock.tscn" id="8_b121j"]
 
 [node name="Level" type="Node2D" unique_id=1924115832 node_paths=PackedStringArray("player", "ground_node", "highlight_node")]
 script = ExtResource("1_mx8sn")
@@ -21,7 +22,6 @@ tile_map_data = PackedByteArray("AAAKAAYAAAAJAAIAAAAKAAUAAAAJAAIAAAAKAAQAAAAJAAI
 tile_set = ExtResource("1_w8frs")
 
 [node name="Props" type="TileMapLayer" parent="Container" unique_id=345735116]
-tile_map_data = PackedByteArray("AAACAAAAAQAAAAAAAAAEAAIAAQAAAAAAAAA=")
 tile_set = ExtResource("2_mx8sn")
 
 [node name="Wet Soil" type="TileMapLayer" parent="Container" unique_id=275118249]
@@ -36,6 +36,7 @@ tile_set = ExtResource("5_2r41h")
 tile_set = ExtResource("1_w8frs")
 
 [node name="Player" parent="." unique_id=71150510 instance=ExtResource("2_w7c3h")]
+current_tool = 3
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=234503786]
 zoom = Vector2(1.5, 1.5)
@@ -44,3 +45,6 @@ zoom = Vector2(1.5, 1.5)
 player = NodePath("../Player")
 tilled_node = NodePath("../Container/Tilled Soil")
 ground_node = NodePath("../Container/Ground")
+
+[node name="Rock" parent="." unique_id=1153379751 instance=ExtResource("8_b121j")]
+position = Vector2(31, 27)

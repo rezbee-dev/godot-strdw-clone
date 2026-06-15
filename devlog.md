@@ -2,6 +2,22 @@
 
 
 
+\*\*June 15 Monday\*\*
+
+* Refactored code to use state machines
+* Created components
+* Created global enums script
+* Implemented rock breaking
+
+
+
+\*\*June 14 Sunday\*\*
+
+* Started a big refactor based on tutorial https://youtu.be/it0lsREGdmc?si=z4ZzfMCYYbf\_-usS
+* Refactored `player.gd`: removed move logic to state machine
+
+
+
 \*\*June 11 Thursday\*\*
 
 * Refactor "farm" code stuff into its own component
@@ -21,3 +37,4 @@
 \*\*June 6 Saturday\*\*
 
 * Change default game window size to 1600x900
+

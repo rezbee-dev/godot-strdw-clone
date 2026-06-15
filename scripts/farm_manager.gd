@@ -22,7 +22,7 @@ func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("LCLICK"):
 		var mouse_pos = ground_node.local_to_map(get_global_mouse_position())
 		var player_pos = ground_node.local_to_map(player.global_position)
-		_till_soil(mouse_pos)
+		#_till_soil(mouse_pos)
 
 func _till_soil(pos: Vector2i) -> void:
 	if not _is_ground(pos):
